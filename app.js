@@ -36,11 +36,10 @@ for (let dado of dados) {
     }
 
 }
-if (!resultados){
+if (!busca){
     section.innerHTML = "<p> Nada foi encontrado!</p>"
     return
 }
   
 section.innerHTML = busca
 }
-//46:08
